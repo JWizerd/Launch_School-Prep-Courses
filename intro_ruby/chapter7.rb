@@ -72,7 +72,8 @@
 	["neon", "none"]
 
 # iterate through the array, check to see if a word is an anagram to another word.
-# if so, append that word to a hash
+# if so, append that sorted word to a hash as a if the key has not already been created
+# if it hasn't create a key with sorted word for other anagram to filter into it
 
 	words =  ['demo', 'none', 'tied', 'evil', 'dome', 'mode', 'live',
           'fowl', 'veil', 'wolf', 'diet', 'vile', 'edit', 'tide',
